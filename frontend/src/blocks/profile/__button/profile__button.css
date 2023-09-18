@@ -1,0 +1,9 @@
+.profile__button {
+    display: flex;
+}
+
+@media screen and (max-width: 400px) {
+    .profile__button {
+        justify-content: center;
+    }
+}

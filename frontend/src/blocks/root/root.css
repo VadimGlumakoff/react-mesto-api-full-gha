@@ -1,0 +1,33 @@
+.root {
+    background-color: #000000;
+    font-family: "inter", serif, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+    min-height: 1000px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    padding: 0 200px 0 200px;
+}
+
+@media screen and (max-width: 1000px) {
+    .root {
+        padding: 0 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: 694px) {
+    .root {
+        padding: 0 19px 0 19px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .root {
+        padding: 0;
+    }
+}

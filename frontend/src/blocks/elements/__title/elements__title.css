@@ -1,0 +1,6 @@
+.elements__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 20px 0px 21px;
+}

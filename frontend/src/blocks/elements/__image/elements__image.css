@@ -1,0 +1,19 @@
+.elements__image {
+    width: 282px;
+    min-height: 282px;
+    max-height: 282px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 694px) {
+    .elements__image {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .elements__image {
+        max-width: 282px;
+    }
+}
