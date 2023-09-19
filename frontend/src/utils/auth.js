@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "http://domainglumakoff.students.nomoredomainsrocks.ru";
 
 function checkResponse(res) {
   return res.ok ? res.json() : Promise.reject(res.status);

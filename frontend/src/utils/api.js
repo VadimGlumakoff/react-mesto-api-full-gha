@@ -1,5 +1,5 @@
 const options = {
-  baseUrl: "http://localhost:3000",
+  baseUrl: "http://domainglumakoff.students.nomoredomainsrocks.ru",
   headers: {
     "Content-Type": "application/json",
   }
@@ -129,7 +129,7 @@ class Api {
     });
   }
 
-  
+
 }
 
 const api = new Api(options)
