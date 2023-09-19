@@ -1,4 +1,4 @@
-const BASE_URL = "http://domainglumakoff.students.nomoredomainsrocks.ru";
+const BASE_URL = "http://domainglumakoff.students.nomoredomainsrocks.ru/api";
 
 function checkResponse(res) {
   return res.ok ? res.json() : Promise.reject(res.status);

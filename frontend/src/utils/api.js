@@ -1,5 +1,5 @@
 const options = {
-  baseUrl: "http://domainglumakoff.students.nomoredomainsrocks.ru",
+  baseUrl: "http://domainglumakoff.students.nomoredomainsrocks.ru/api",
   headers: {
     "Content-Type": "application/json",
   }
