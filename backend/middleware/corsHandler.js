@@ -1,6 +1,7 @@
 // Массив доменов, с которых разрешены кросс-доменные запросы
 const allowedCors = [
     "http://localhost:3001",
+    "http://domainglumakoff.students.nomoredomainsrocks.ru",
 ];
 
 const corsHandler = (req, res, next) => {
