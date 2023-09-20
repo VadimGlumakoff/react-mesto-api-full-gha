@@ -5,12 +5,13 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/VadimGlumakoff/react-mesto-api-full-gha
+
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP 51.250.101.226
 
-Frontend https://...
+Frontend https://domainglumakoff.students.nomoredomainsrocks.ru
 
-Backend https://...
+Backend https://domainglumakoffv.students.nomoredomainsrocks.ru
