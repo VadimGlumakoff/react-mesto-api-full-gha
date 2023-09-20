@@ -7,11 +7,15 @@ const cookieParser = require("cookie-parser");
 const corsHandler = require("./middleware/corsHandler");
 const router = require("./routes/index");
 const errorHandler = require("./middleware/errorHandler");
-const { PORT } = require("./config");
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/mestodb", {
+const {
+    PORT = 3000,
+    DB_URL = "mongodb://localhost:27017/mestodb",
+} = process.env;
+
+mongoose.connect(DB_URL, {
     family: 4,
     useNewUrlParser: true,
     useUnifiedTopology: true,
