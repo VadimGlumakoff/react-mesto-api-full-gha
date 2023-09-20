@@ -2,6 +2,7 @@
 const allowedCors = [
     "http://localhost:3001",
     "http://domainglumakoff.students.nomoredomainsrocks.ru",
+    "https://domainglumakoff.students.nomoredomainsrocks.ru",
 ];
 
 const corsHandler = (req, res, next) => {
