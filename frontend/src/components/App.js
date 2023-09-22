@@ -218,6 +218,7 @@ function App() {
         setMessage("Что-то пошло не так! Попробуйте ещё раз.");
         setIsOpenPopupTooltip(true);
         setIsStatus(false);
+        navigate("sign-up");
       });
   }
 
