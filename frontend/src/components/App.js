@@ -210,6 +210,7 @@ function App() {
       .then((data) => {
         setIsLoggedIn(true);
         setUserEmail(formValue.email);
+        navigate("/");
       })
       .catch((err) => {
         console.log(err);
