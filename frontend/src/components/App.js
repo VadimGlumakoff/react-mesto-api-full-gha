@@ -205,14 +205,11 @@ function App() {
   }
 
   function userLogin(formValue) {
-
     auth
       .authorization(formValue)
-      console.log("11", formValue)
       .then((data) => {
         setIsLoggedIn(true);
         setUserEmail(formValue.email);
-    
       })
       .catch((err) => {
         console.log(err);
